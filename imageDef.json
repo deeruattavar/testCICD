@@ -1,6 +1,6 @@
 [
     {
-        "name": "aspnet-container",
-        "imageUri": "344819442097.dkr.ecr.ap-southeast-1.amazonaws.com/aspnetcorerepo:latest"
+        "name": "container_cicd",
+        "imageUri": "344819442097.dkr.ecr.us-east-1.amazonaws.com/aspnetcore:latest"
     }
 ]
