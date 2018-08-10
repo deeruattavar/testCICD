@@ -1,0 +1,21 @@
+{
+  "taskDefinition": {
+    "family": "hello-world",
+    "containerDefinitions": [
+      {
+        "name": "container_cicd",
+        "image": "344819442097.dkr.ecr.us-east-1.amazonaws.com/aspnetcore:latest",
+        "cpu": 100,
+        "portMappings": [
+          {
+            "protocol": "tcp",
+            "containerPort": 80,
+            "hostPort": 85
+          }
+        ],
+        "memory": 128,
+        "essential": true
+      }
+    ]
+  }
+}
